@@ -1,0 +1,46 @@
+header {
+    border-bottom: solid black 3px;
+    display: flex;
+    padding: 0px;
+    flex-direction: column;
+}
+
+.app-title{
+    flex: 3;
+}
+
+.nav{
+    flex: 1;
+    text-align: end;
+    margin-top: 0px;
+    margin-right: 5px;
+    padding-bottom: 0px;
+}
+
+.nav p{
+    margin-bottom: 0px;
+}
+
+.meal-choice{
+    display: flex;
+    flex-direction: column;
+    border: solid black 2px;
+    margin: 5px;
+    padding: 5px;
+}
+
+.recipie{
+    display: flex;
+}
+
+.img{
+    border: solid black 1px;
+    flex: 1;
+    height: 100px;
+    text-align: center;
+    margin-right: 10px;
+}
+
+.desc{
+    flex: 3;
+}
